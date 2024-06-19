@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin:0;
+    
+}
+
+body{
+    background-image: linear-gradient(to right,rgb(203, 108, 108),rgb(149, 107, 114));
+
+
+}
+
+
+
+.main{
+    background-color: rgb(67, 206, 206);
+    padding: 20px;
+    margin: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  
+}
+
+.main-b{
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+   background-color: rgb(227, 227, 215);
+   
+}
+
+.main-b input{
+    padding: 5px;
+    background-color: transparent;
+    opacity: 1.5px;
+    color: black;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn button{
+    padding: 10px;
+    background-color: black;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ans,#result{
+    text-align: center;
+    color: rgb(183, 11, 11);
+    font-style: normal;
+    font-weight: bolder;
+    font-size: larger;
+    transition-duration: 1s;
+}
